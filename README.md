@@ -1,8 +1,8 @@
-# data_analysis
+# data_analysis on Data roles with AI
 
 ## 1.What are the most demanded skills for the top 3 most popular data roles?
 
-### Visual Data :
+### Visualizing Data :
 
 ```python
 fig, ax = plt.subplots(3,1)
@@ -28,6 +28,12 @@ for i, role in enumerate(roles):
 ![Likelihood of Skill Requested in {country} Job Postings](projects/images/likelihood_of_skill.png)
 
 _Bar Graph showing the Likelihood of Skill Requested in {country} Job Postings._
+
+### Insights
+
+59.7 % of Data Engineer jobs demand SQL, and 54.7 % require Python—master at least one, ideally both, to cover ~73 % of listings.
+Azure (41.2 %) and AWS (33.1 %) still appear in a third of roles; adding cloud expertise raises your application success by >15 %.
+Combining SQL + Python + a cloud skill (Azure/AWS) lands you chances in roughly 85 % of the 11,807 Data Engineer vacancies.
 
 ## 2.How are indemand skills trending for DATA ANALYTICS
 
@@ -134,14 +140,12 @@ Python follows closely: 36 listings, ₹96,050 median, and strong growth in data
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the US]
-(projects/images/optimal_skills_da.png)
-_Scatter plot visualizing the Most Optimal Skills for Data Analysts in the US._
+![Most Optimal Skills for Data Analysts in the US](projects/images/optimal_skills.png)
+
+_Scatter plot visualizing the most optimal skills for data analysts in the US._
 
 #### Insights
 
-- **Python and SQL are the most valuable technical skills** — SQL appears in nearly **60% of data analyst jobs**, making it the most demanded skill, while Python offers the **highest salary (~$98K)** among programming skills. A strong combination of both can significantly improve job opportunities and earning potential.
-
-- **Visualization tools like Tableau and Power BI increase employability** — Tableau is linked with salaries around **$93K**, and Power BI is also highly requested. Learning one strong BI tool alongside SQL can make you job-ready faster for analyst roles.
-
-- **Avoid relying only on basic office tools** — Skills like Word, PowerPoint, and even Excel are associated with comparatively lower salaries. Excel is still important, but pairing it with SQL, Python, or Tableau is what helps candidates stand out and move into higher-paying analyst positions.
+- **SQL tops the demand chart**: 45.8 % of postings mention it, and the median UK salary is £98.5k – aim to master SQL for the highest immediate ROI.
+- **Python follows closely**: 34.7 % demand with a median pay of £89.1k, making it a second‑line skill for tech roles that need quick data manipulation.
+- **Niche high‑pay skill**: “Flow” commands £114.7k median, yet only 5.6 % of jobs ask for it – perfect for freelancers seeking premium contracts in process automation.
