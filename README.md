@@ -1,4 +1,12 @@
-# data_analysis on Data roles with AI
+# AI-Powered Analysis of Data Job Roles
+
+## Tech Stack
+
+- Python
+- Matplotlib
+- Seaborn
+- LiteLLM
+- Jupyter Notebook
 
 ## 1.What are the most demanded skills for the top 3 most popular data roles?
 
